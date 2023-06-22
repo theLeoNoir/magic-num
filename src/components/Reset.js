@@ -1,5 +1,5 @@
 export default function Reset({ handleReset }) {
     return (
-        <button className onClick={handleReset}>Reset</button>
+        <button className='reset-btn' onClick={handleReset}>Reset</button>
     )
 }

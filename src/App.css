@@ -89,9 +89,6 @@ span {
   letter-spacing: 0.5rem;
 }
 
-.reset-btn {
-  margin-top: 0;
-}
 .header-text {
   margin-bottom: 3rem;
   text-align: center;
@@ -135,7 +132,7 @@ input {
       transparent 0ch
     )
     0 100% / calc(8ch) 1.5px no-repeat;
-  border-top: 1.5px solid transparent; /* Add transparent top border */
+  border-top: 1.5px solid transparent;
   transition: border-top 0.3s ease;
   font-family: "Gruppo", sans-serif;
   color: #ffffff;
@@ -303,3 +300,62 @@ button:hover {
 .list li:not(:last-of-type) {
   margin-bottom: 1rem;
 }
+@media (max-width: 845px) {
+  .modal {
+    width: 80%;
+    height: 80%;
+  }
+  .modal h1 {
+    font-size: 1.5rem;
+  }
+  .modal li {
+    font-size: 0.9rem;
+  }
+
+  .modal li:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+  }
+  .header-text {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+
+  .container input {
+    font-size: 2rem;
+    width: 50%;
+    letter-spacing: 0.9rem;
+    margin-top: 1rem;
+  }
+  .container input:last-child {
+    margin-bottom: 2rem;
+  }
+
+  .calculated-sum,
+  .sum {
+    font-size: 1.2rem;
+    margin-left: 3rem;
+  }
+  .sum {
+    margin-left: 5rem;
+  }
+  .arrow {
+    left: 18%;
+  }
+  .arrow2 {
+    top: 32%;
+  }
+  .arrow3 {
+    top: 55%;
+  }
+  .reset-btn {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    margin-right: 1rem;
+  }
+  .navbar {
+    top: 8%;
+    left: 40%;
+  }
+}
+
+/* Media query for screens with a minimum width of 1024px */
