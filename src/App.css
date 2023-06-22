@@ -302,15 +302,19 @@ button:hover {
 }
 @media (max-width: 480px) {
   .modal {
-    width: 80%;
-    height: 95%;
+    width: 50vh;
+
+    overflow: auto;
   }
   .modal h1 {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
   }
   .modal li {
     font-size: 1rem;
+  }
+  .arrow {
+    opacity: 0;
   }
 
   .modal li:not(:last-of-type) {
@@ -332,27 +336,18 @@ button:hover {
   .calculated-sum,
   .sum {
     font-size: 1.2rem;
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
   .sum {
-    margin-left: 9rem;
+    margin-left: 7rem;
   }
   .arrow {
-    left: 27%;
+    display: hidden;
   }
-  .arrow1 {
-    top: 16%;
-  }
-  .arrow2 {
-    top: 29%;
-  }
-  .arrow3 {
-    top: 54%;
-  }
+
   .reset-btn {
     margin-top: 1rem;
     margin-bottom: -3rem;
-    margin-right: 1rem;
   }
   .navbar {
     top: 2%;
