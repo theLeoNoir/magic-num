@@ -300,61 +300,69 @@ button:hover {
 .list li:not(:last-of-type) {
   margin-bottom: 1rem;
 }
-@media (max-width: 845px) {
+@media (max-width: 480px) {
   .modal {
     width: 80%;
-    height: 80%;
+    height: 95%;
   }
   .modal h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
   }
   .modal li {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .modal li:not(:last-of-type) {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
   }
   .header-text {
     font-size: 1.2rem;
-    margin-top: 3rem;
+    margin-top: 0.2rem;
   }
 
   .container input {
     font-size: 2rem;
     width: 50%;
     letter-spacing: 0.9rem;
-    margin-top: 1rem;
-  }
-  .container input:last-child {
-    margin-bottom: 2rem;
+    margin-top: 0.1rem;
+    margin-left: 4rem;
   }
 
   .calculated-sum,
   .sum {
     font-size: 1.2rem;
-    margin-left: 3rem;
+    margin-left: 6rem;
   }
   .sum {
-    margin-left: 5rem;
+    margin-left: 9rem;
   }
   .arrow {
-    left: 18%;
+    left: 27%;
+  }
+  .arrow1 {
+    top: 16%;
   }
   .arrow2 {
-    top: 32%;
+    top: 29%;
   }
   .arrow3 {
-    top: 55%;
+    top: 54%;
   }
   .reset-btn {
     margin-top: 1rem;
-    margin-bottom: -1rem;
+    margin-bottom: -3rem;
     margin-right: 1rem;
   }
   .navbar {
-    top: 8%;
+    top: 2%;
     left: 40%;
+  }
+  .navbar button {
+    font-size: 1rem;
+    padding: 0.4rem;
+    width: 4rem;
+    height: 2.2rem;
   }
 }
 
